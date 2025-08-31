@@ -1,0 +1,27 @@
+ table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+       
+        /* font-weight: 900; */
+        
+    }
+    table{
+        width:600px;
+        height:50px;
+    }
+    td{
+        text-align: center;
+    }
+    tr:nth-child(even){
+        background-color: rgb(101, 106, 106, 0.4);
+    }
+    tr:nth-child(odd){
+        background-color: rgb(111, 122, 164, 0.4);
+    }
+    .SchoolTimetable > thead{
+        font-weight: 900;
+
+    }
+     .SchoolTimetable > tbody{
+        font-weight: 100;
+     }

@@ -1,0 +1,82 @@
+ table{
+            border: 4px hidden red;
+            border-collapse: separate;
+            width: 80%;
+            height: 300px;
+            border-radius: 10px;
+            padding-left: 10px;
+
+        }
+        table:hover, th:hover, td:hover{
+            border-style: dashed;
+            border-color: orange;
+            border-radius: 15px;
+            background-color: gray;
+        }
+        th{
+            background-color: #04aa41;
+            color: rgb(255, 255, 255);
+            border: 1px solid black;
+            border-collapse: collapse;
+            height: 10px;
+        }
+        td{
+            background-color: #96D4D4;
+            border: 1px solid white;
+            border-collapse: collapse;
+            padding:15px;
+        }
+
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50%;
+            background-color: #96D4D4;
+        }
+        img{
+            border-radius: 50%;
+        }
+        .softwareImage{
+            height:100px;
+            width:100px;
+
+        }
+        .softwareImageContainer{
+            height:200px;
+            width:300px;
+            background-color: rgb(91, 91, 218);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            border-radius:10px;
+        }
+        .grayDiv{
+            height:500px;
+            width:100%;
+            background-color: rgb(35, 34, 34);
+            display:flex;
+            justify-content: center;
+            padding-top:20px;
+
+        }
+        .softwareImageContainer:hover{
+            border:5px solid white;
+        }
+        .box{
+            border:2px solid green;
+            width:25%;
+            height:160px;
+            margin-left: 35%;
+            margin-top: 20px;
+            padding:15px 50px 80px 15px;
+
+        }
