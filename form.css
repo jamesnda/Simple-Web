@@ -29,22 +29,21 @@
 }
 body{
     background-image: url("/assets/Mountain.jpg");
+
     
 }
 form{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70%;
-    overflow: scroll;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 .formsection{
     background-color: rgba(2,5,7,0.4);
     padding: 10px;
     width: 100%;
-    height: 100vh;
+   
     display: flex;
     justify-content: center;
     align-items: center;
