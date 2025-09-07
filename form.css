@@ -1,0 +1,73 @@
+.buttons{
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 50%;
+    margin-top: 5px;
+
+}
+.container{
+    border: 1px solid black;
+    width: 50%;
+    padding: 25px;
+    border-radius: 15px;
+    background: linear-gradient(270deg, rgb(160, 160, 238), rgb(151, 221, 151));
+
+
+}
+.form-group{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.form-input{
+    padding: 10px;
+    border-radius: 5px;
+    height: 22px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+body{
+    background-image: url("/assets/Mountain.jpg");
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70%;
+    overflow: scroll;
+    margin-top: 20px;
+
+}
+.formsection{
+    background-color: rgba(2,5,7,0.4);
+    padding: 10px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(69, 69, 190);
+    text-decoration-line: underline;
+    text-decoration-color: #99534e;
+    text-decoration-style: dashed;
+
+}
+hr{
+    height: 5px;
+    background-color: red;
+    border: none;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    
+}

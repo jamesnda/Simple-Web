@@ -1,0 +1,14 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.container{
+    background-color: #9c6d6d;
+    border-top-right-radius: 15px;
+}
+table:hover, th:hover, td:hover{
+            border-style: dashed;
+            border-color: orange;
+            border-radius: 15px;
+            background-color: gray;
+}
